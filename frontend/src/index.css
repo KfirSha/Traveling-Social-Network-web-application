@@ -1,0 +1,274 @@
+.error {
+  color:#db2269;
+  font-size: 0.8em;
+  display: relative;
+}
+
+.pagination > li {
+  display: inline-block;
+  padding-left: 0;
+}
+.pagination > li {
+  list-style: none;
+  border: 0.9px solid;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  color: #2c689c;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-left: -1px;
+}
+
+.pagination>li.active>a {
+  color: #fff;
+  background-color: #2E64FE;
+  border-color: #1e7e34;
+}
+
+/* Style the active class (and buttons on mouse-over) */
+.pagination > li > a:hover {
+  background-color:  #2E64FE;
+  color: white;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+    padding: 0px;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  display: none!important;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-bottom-right-radius: 4px;
+  margin-right: 0;
+  padding: 0px!important;
+  border-top-right-radius: 4px;
+  display: none!important;
+}
+
+ul.nav.nav-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+ /*.leaflet-container {*/
+   /*height: 500px;*/
+   /*width: 735px;*/
+ /*}*/
+
+ #wrapper {
+    overflow: hidden;
+    width: 93%;
+    padding: 1px;
+}
+.left {
+    display: inline-block;
+    float: left;
+    width: 10%;
+   text-align: center;
+}
+.right {
+    display: inline-block;
+      float: right;
+    width: 100%;
+}
+.topContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.MuiAutocomplete-inputRoot
+.MuiAutocomplete-input {
+    width: auto;
+}
+.MuiFormLabel-root
+{
+    line-height: 0 !important;
+}
+.MuiInputBase-input
+{
+    line-height: 0 !important;
+    box-sizing: border-box !important;
+}
+MuiOutlinedInput-input
+{
+    line-height: 0 !important;
+}
+ MuiAutocomplete-input
+ {
+    line-height: 0 !important;
+}
+ MuiAutocomplete-inputFocused
+ {
+    line-height: 0 !important;
+}
+ MuiInputBase-inputAdornedEnd
+ {
+    line-height: 0 !important;
+}
+ MuiOutlinedInput-inputAdornedEnd
+ {
+    line-height: 0 !important;
+}
+.MuiInputBase-root{
+    -webkit-writing-mode: horizontal-tb !important;
+    background-color: white;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+.MuiInputBase-input{
+    height: 0em;
+}
+
+/*.leaflet-container {*/
+    /*height: 100px;*/
+    /*width: 150px;*/
+/*}*/
+/*.mapStyles  {*/
+    /*width: 20%;*/
+  /*height: 20%;*/
+/*}*/
+/*.leaflet-container {*/
+    /*height: 400px;*/
+    /*width: 800px;*/
+/*}*/
+/*.map {*/
+  /*width: 100%;*/
+  /*height: 440px;*/
+/*}*/
+.mapp{
+    position: relative !important;
+    height: 500px;
+    z-index: 100;
+}
+.map2
+{
+    position: relative !important;
+    height: 500px;
+    z-index: 1;
+}
+.container{
+    max-width: 100% !important;
+}
+
+.col-sm-8 {
+    max-width: 100% !important;
+}
+
+.leaflet-container {
+    position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.little_map1{
+    height: 150px;
+    width: 250px;
+}
+.little_map2{
+    height: 250px;
+    width: 450px;
+}
+ .geocoder-control-input {
+   position: relative;
+ }
+
+ .geocoder-control-suggestions {
+   margin-top: -20px;
+   position: relative;
+ }
+ /*.react-datepicker*/
+ /*{*/
+     /*overflow: visible;*/
+     /*z-index: 10000 !important;*/
+ /*}*/
+ .react-datepicker-popper {
+    z-index: 10000  !important;
+}
+
+
+
+
+.big_map
+{
+    height: 100%;
+    width: 70%;
+    position: relative;
+    overflow: hidden;
+    left: 15%;
+}
+.small_map
+{
+    overflow: hidden;
+    left: 100% !important;
+}
+.dateRow{display:flex; flex-direction:row;}
+.in_center_search_partners
+{
+    left: 20% !important;
+}
+
+
+
+
+
+.card {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.feed{
+    text-align: center;
+}
+
+.content-feed{
+    max-width: 240px;
+}
+
+.location-search-input
+{
+    width: 40% !important;
+}
+
+.radius
+{
+    width: 15%;
+}
